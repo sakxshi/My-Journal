@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:text="Gratitude"
             android:layout_marginTop="40dp"
-            android:textSize="28sp"
+            android:textSize="35sp"
             android:textStyle="bold"
             android:textColor="#eff5e6"
             android:fontFamily="@font/headstay"
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="Journal"
             android:layout_marginTop="40dp"
-            android:textSize="28sp"
+            android:textSize="35sp"
             android:textColor="#eff5e6"
             android:textStyle="bold"
             android:fontFamily="@font/headstay"
@@ -72,8 +72,9 @@
 
         <Button
             android:id="@+id/btn_finish"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="F I N I S H"
             android:layout_marginTop="40dp"
             android:textSize="32sp"
