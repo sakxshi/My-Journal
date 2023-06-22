@@ -38,7 +38,7 @@
             android:background="@drawable/default_option_border"
             android:textSize="30sp"
             android:textColor="#22223b"
-            android:fontFamily="@font/headstay"
+            android:fontFamily="@font/nature_beauty"
             android:gravity="center"/>
 
 
