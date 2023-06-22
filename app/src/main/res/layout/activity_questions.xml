@@ -116,6 +116,7 @@
             android:layout_margin="20dp"
             android:background="@drawable/btn"
             app:backgroundTint = "#000000"
+            android:textColor="#ffffff"
             android:text="S U B M I T"
             android:textSize="24sp"
             android:fontFamily="@font/happylucky"
