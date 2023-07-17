@@ -28,7 +28,7 @@ class Result : AppCompatActivity() {
         val tvJournal : TextView = findViewById(R.id.journal)
 
         tvTopic.text = pTopic
-        tvGratitude.text = " Gratitude opens our hearts and minds to the beauty that surrounds us—the love of our family and friends, the simple joys of everyday life. Have a look at things you are grateful for : \n $nGratitude "
+        tvGratitude.text = " Gratitude opens our hearts and minds to the beauty that surrounds us. Have a look at things you are grateful for : \n $nGratitude "
         tvJournal.text = "Here's how you were feeling today : \n $mJournal"
 
         btnFinish.setOnClickListener{
