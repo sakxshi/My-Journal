@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.example.mydailyjournal.Result
 
@@ -25,6 +26,9 @@ class JournalingActivity : AppCompatActivity() {
         mGratitude = intent.getStringExtra(Constants.GRATITUDE)
 
         val inputtedText : EditText = findViewById(R.id.inputted_text_journal)
+
+        val journalingTopic : TextView = findViewById(R.id.question_journal)
+        journalingTopic.text = "Write your note on: \n $oTopic"
 
        //mGratitude = intent.getStringExtra(Constants.GRATITUDE)
 
