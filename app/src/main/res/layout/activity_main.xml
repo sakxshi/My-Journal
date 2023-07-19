@@ -24,7 +24,7 @@
         android:shadowColor="@color/black"
         android:shadowDy="-2"
         android:shadowRadius="5"
-        android:text="Your  Journal  Diary!"
+        android:text="Your  Journal  Diary !"
         android:textColor="@color/white"
         android:textSize="30sp"
         tools:ignore="TextContrastCheck">
