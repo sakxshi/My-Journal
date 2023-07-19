@@ -8,7 +8,7 @@ import android.widget.EditText
 
 class GratitudeActivity : AppCompatActivity() {
 
-    private var nTopic : String? = null
+    private var nTopic : String? = null      //receiving topic from QuestionsActivity
 
     private var btnSubmitGratitude: Button? = null
 
@@ -25,7 +25,7 @@ class GratitudeActivity : AppCompatActivity() {
 
         btnSubmitGratitude?.setOnClickListener{
 
-            val intent = Intent(this, JournalingActivity::class.java)    //this intent will now allow me to move from MainActivity to QuestionsActivity
+            val intent = Intent(this, JournalingActivity::class.java)    //this intent will now allow me to move from MainActivity to JournalingActivity
             intent.putExtra(Constants.TOPIC, nTopic)
             intent.putExtra(Constants.GRATITUDE, inputtedText.text.toString())
             startActivity(intent)

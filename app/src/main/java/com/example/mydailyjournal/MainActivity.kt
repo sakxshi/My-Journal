@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             }
             else{
                 val intent = Intent(this, QuestionsActivity::class.java)    //this intent will now allow me to move from MainActivity to QuestionsActivity
-                intent.putExtra(Constants.TOPIC, inputtedText.text.toString())
+                intent.putExtra(Constants.TOPIC, inputtedText.text.toString())          //sending topic from MainActivity to QuestionsActivity
                 startActivity(intent)
                 finish()
             }

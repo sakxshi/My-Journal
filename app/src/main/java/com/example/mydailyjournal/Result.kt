@@ -31,6 +31,7 @@ class Result : AppCompatActivity() {
         tvGratitude.text = " Gratitude opens our hearts and minds to the beauty that surrounds us. Have a look at things you are grateful for : \n $nGratitude "
         tvJournal.text = "Here's how you were feeling today : \n $mJournal"
 
+        //as we click the FINISH button, we are sent back to the main page
         btnFinish.setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java))
 

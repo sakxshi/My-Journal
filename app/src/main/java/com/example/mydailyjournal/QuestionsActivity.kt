@@ -66,7 +66,7 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun setQuestion() {
 
-        defaultOptionView()    //to reset chosen option feature every time we go to the next question
+        defaultOptionView()         //to reset chosen option feature every time we go to the next question
 
         val question: QuestionSet = mQuestionList!![mCurrentPosition - 1]
 
@@ -99,6 +99,7 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
             options.add(3, it)
         }
 
+
         for(option in options){
             option.setTextColor(Color.parseColor("#7a8089"))
             option.typeface = Typeface.DEFAULT
@@ -106,6 +107,8 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+
+    //to change the interface as we select an option
     private fun selectedOptionView(tv: TextView, selectedOptionNum: Int){
 
         defaultOptionView()
@@ -160,7 +163,7 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
                     optionView(mSelectedOptionPosition, R.drawable.chosen_option_border)
 
-                    btnSubmit?.text = "GO TO NEXT QUESTION"
+                    btnSubmit?.text = "GO TO NEXT QUESTION"      //to go to next question once we have submitted the option for the current question
 
                     if (mCurrentPosition == mQuestionList!!.size){
 
@@ -182,6 +185,7 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    //to change the interface after clicking submit
     private fun optionView(answer: Int, drawableView: Int)
     {
         when(answer){
