@@ -16,17 +16,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="180dp"
         android:layout_marginEnd="10dp"
-        android:text="Your  Journal  Diary!"
+        android:layout_marginBottom="30dp"
         android:fontFamily="@font/nature_beauty"
+        android:gravity="center"
+        android:shadowColor="@color/black"
         android:shadowDy="-2"
         android:shadowRadius="5"
-        android:shadowColor="@color/black"
-        android:layout_marginTop="180dp"
-        android:layout_marginBottom="30dp"
-        android:gravity="center"
+        android:text="Your  Journal  Diary!"
         android:textColor="@color/white"
-        android:textSize="30sp">
+        android:textSize="30sp"
+        tools:ignore="TextContrastCheck">
+
     </TextView>
 
     <androidx.cardview.widget.CardView
@@ -87,16 +89,18 @@
 
             <Button
                 android:id="@+id/btn_start"
+                android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:background="@drawable/btn"
+                android:contentDescription="Start Button"
                 android:text="Start"
-                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:background="@drawable/btn"
+                android:textStyle="bold"
                 app:backgroundTint="#01497c"
-                android:contentDescription="Start Button"/>
+                tools:ignore="RedundantDescriptionCheck" />
 
 
 
