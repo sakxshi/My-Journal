@@ -87,7 +87,7 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
     private fun defaultOptionView(){
         val options = ArrayList<TextView>()
         tvOptionOne?.let {
-            options.add(0, it)
+            options.add(0, it)     //we are adding the option to the array list declared above
         }
         tvOptionTwo?.let {
             options.add(1, it)
@@ -99,7 +99,7 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
             options.add(3, it)
         }
 
-
+        //setting the view of all the options in the ArrayList to default option view
         for(option in options){
             option.setTextColor(Color.parseColor("#7a8089"))
             option.typeface = Typeface.DEFAULT
@@ -123,7 +123,7 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View?) {
-        when(view?.id) {
+        when(view?.id) {                //when selected option is option 1, we pass the text view and the option number to the selectedOptionView function
             R.id.option_one -> {
                 tvOptionOne?.let {
                     selectedOptionView(it, 1)
@@ -147,38 +147,24 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btn_submit ->{
 
-                if (mSelectedOptionPosition == 0) {
-
-                    mCurrentPosition++
-
-                    when {
-
-                        mCurrentPosition <= mQuestionList!!.size -> {
-
-                            setQuestion()
-                        }
+                when
+                {
+                    mCurrentPosition <= mQuestionList!!.size ->     //as long as we have questions left
+                    {
+                        setQuestion()
                     }
                 }
-                else {
 
-                    optionView(mSelectedOptionPosition, R.drawable.chosen_option_border)
+                optionView(mSelectedOptionPosition, R.drawable.chosen_option_border)
+                btnSubmit?.text = "GO TO NEXT QUESTION"
 
-                    btnSubmit?.text = "GO TO NEXT QUESTION"      //to go to next question once we have submitted the option for the current question
-
-                    if (mCurrentPosition == mQuestionList!!.size){
-
-                        btnSubmit?.setOnClickListener{
-                            val intent = Intent(this, GratitudeActivity::class.java)
-                            intent.putExtra(Constants.TOPIC, mTopic)
-                            startActivity(intent)
-                            finish()
-
-                        }
-
-
+                if (mCurrentPosition == mQuestionList!!.size){   //once we have reached the end of question list, we move to Gratitude Activity
+                    btnSubmit?.setOnClickListener{
+                        val intent = Intent(this, GratitudeActivity::class.java)
+                        intent.putExtra(Constants.TOPIC, mTopic)
+                        startActivity(intent)
+                        finish()
                     }
-
-                    mSelectedOptionPosition = 0
                 }
 
             }

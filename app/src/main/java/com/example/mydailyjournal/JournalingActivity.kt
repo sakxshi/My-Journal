@@ -28,7 +28,7 @@ class JournalingActivity : AppCompatActivity() {
         val inputtedText : EditText = findViewById(R.id.inputted_text_journal)
 
         val journalingTopic : TextView = findViewById(R.id.question_journal)
-        journalingTopic.text = "Write a note on your topic : \n \" $oTopic \""
+        journalingTopic.text = "Write a note on your topic \n \" $oTopic \""
 
        //mGratitude = intent.getStringExtra(Constants.GRATITUDE)
 
