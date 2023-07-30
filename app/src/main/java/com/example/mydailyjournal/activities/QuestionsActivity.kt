@@ -1,4 +1,4 @@
-package com.example.mydailyjournal
+package com.example.mydailyjournal.activities
 
 import android.content.Intent
 import android.graphics.Color
@@ -11,6 +11,9 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.content.ContextCompat
+import com.example.mydailyjournal.Constants
+import com.example.mydailyjournal.QuestionSet
+import com.example.mydailyjournal.R
 
 class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
