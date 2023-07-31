@@ -1,4 +1,4 @@
-![My Journal App Icon (1)](https://github.com/sakxshi/My-Journal/assets/111812378/a0b408a1-41ff-4bcb-8690-97bb7f6ef48a)
+![My Journal App Icon (1)](https://github.com/sakxshi/My-Journal/assets/111812378/649cfb6f-f159-4d72-9453-a936e051bf1e)
 
 # MyJournal
 
