@@ -1,3 +1,5 @@
+![My Journal App Icon (1)](https://github.com/sakxshi/My-Journal/assets/111812378/a0b408a1-41ff-4bcb-8690-97bb7f6ef48a)
+
 # MyJournal
 
 When the entire day has been overwhelming or you have got a lot of emotions going on in your mind, MyJournal comes into play. All you need is to declutter your mind by writing down your thoughts and MyJournal has got you covered. It begins with three questions to help you get started with introspecting your day. Next, you have a section for gratitude journlaing followed by a notes section to write about your day. 
@@ -18,7 +20,8 @@ When the entire day has been overwhelming or you have got a lot of emotions goin
 Everybody knows drinking ample amount of water is good for health but how often do you drink water? To make drinking water your habit, you need cues. You need to make it tempting. MyJournal does the same thing. Everybody knows journlaing is good for your mental health but how often do you practice that? To make it your habit, I have tried my best to make MyJournal very tempting. Anybody
 struggling with inculcating this habit for a better mental health, MyJournal is here to help you. 
 
-
 # What's coming up next?
 
 MyJournal is a frontend android application. In the coming days, I will be focusing on making it a full stack android application with firebase helping supporting the backend. Stay tuned! 
+
+
