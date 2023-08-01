@@ -22,6 +22,6 @@ struggling with inculcating this habit for a better mental health, MyJournal is 
 
 # What's coming up next?
 
-MyJournal is a frontend android application. In the coming days, I will be focusing on making it a full stack android application with firebase helping supporting the backend. Stay tuned! 
+MyJournal is a frontend android application. In the coming days, I will be focusing on making it a full stack android application with firebase supporting the backend. Stay tuned! 
 
 
