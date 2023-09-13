@@ -6,7 +6,7 @@ When the entire day has been overwhelming or you have got a lot of emotions goin
 
 # Features
 
-1. Asks mindful questions in the beginning.
+1. Asks mindful questions.
 2. Involves Gratitude Journaling.
 3. Involves Writing down about your emotions/day.
 4. Displays a result page with user's input and awareness about Journaling and being Grateful.
