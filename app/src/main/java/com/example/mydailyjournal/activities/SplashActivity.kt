@@ -1,10 +1,11 @@
 package com.example.mydailyjournal.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.net.Uri
 import android.os.Bundle
-import android.os.Handler
 import android.view.WindowManager
+import android.widget.VideoView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.mydailyjournal.R
 
 class SplashActivity : AppCompatActivity() {
@@ -14,12 +15,19 @@ class SplashActivity : AppCompatActivity() {
 
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN)
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        )
 
-        Handler().postDelayed({
+        val splashVideo: VideoView = findViewById(R.id.splashVideo)
+        val videoUri = Uri.parse("android.resource://${packageName}/${R.raw.animation}")
+
+        splashVideo.setVideoURI(videoUri)
+
+        splashVideo.setOnCompletionListener {
             startActivity(Intent(this, MainActivity::class.java))
-            finish()                     //so that the user is not able to come back to the splash activity
+            finish()
+        }
 
-        }, 3500)
+        splashVideo.start()
     }
 }
