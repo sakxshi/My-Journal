@@ -2,7 +2,7 @@
 
 # MyJournal
 
-When the entire day has been overwhelming or you have got a lot of emotions going on in your mind, MyJournal comes into play. All you need is to declutter your mind by writing down your thoughts and MyJournal has got you covered. It begins with three questions to help you get started with introspecting your day. Next, you have a section for gratitude journlaing followed by a notes section to write about your day. 
+When your day feels overwhelming or your mind is crowded with emotions, MyJournal helps you declutter your thoughts. It starts with three guided questions to encourage reflection, followed by a gratitude journaling section and a notes section to freely express your day. 
 
 # Features
 
@@ -17,8 +17,7 @@ When the entire day has been overwhelming or you have got a lot of emotions goin
 
 # Why do you need MyJournal?
 
-Everybody knows drinking ample amount of water is good for health but how often do you drink water? To make drinking water your habit, you need cues. You need to make it tempting. MyJournal does the same thing. Everybody knows journlaing is good for your mental health but how often do you practice that? To make it your habit, I have tried my best to make MyJournal very tempting. Anybody
-struggling with inculcating this habit for a better mental health, MyJournal is here to help you. 
+Everyone knows that drinking enough water and journaling regularly are beneficial for health and well-being, but building these habits can be challenging. MyJournal is designed to make journaling more engaging and rewarding, helping users develop a consistent practice for better mental health. If you're struggling to build this habit, MyJournal is here to support you. 
 
 # What's coming up next?
 
